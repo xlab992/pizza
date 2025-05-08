@@ -86,7 +86,7 @@ Torna alla sezione Actions . Esegui i workflow nel seguente ordine:
 2. ⏳ ATTENDI IL COMPLETAMENTO del workflow precedente (deve apparire una spunta verde ✅).
 3. ⚽ Update itaEvents :
    - Stesso procedimento del workflow precedente.
-   - 
+     
 4. (Opzionale) 🌍 Update OnlyEvents :
    - Se desideri la lista con TUTTI gli eventi sportivi (molto estesa e potenzialmente con sport di nicchia), esegui anche questo workflow dopo il completamento degli altri.
 Attendi che tutti i workflow selezionati abbiano una spunta verde ✅. Questo indica che le liste M3U sono state generate e aggiornate nel tuo repository.
@@ -124,6 +124,6 @@ Per utilizzare facilmente le tue liste M3U generate (ad esempio con l'applicazio
 ## 🔌 Utilizzo con OMG (o altre applicazioni)
 1. Apri la tua applicazione (es. OMG).
 2. Nel campo per l'inserimento dell'URL della lista M3U, incolla l'indirizzo link del Raw Gist che hai copiato al passaggio precedente.
-3. Se disponibile, abilita l'opzione per l'EPG.
+3. Abilita l'opzione per l'EPG senza link.
 4. Procedi con la generazione della configurazione o l'installazione dell'addon, come richiesto dalla tua applicazione.
 🎉 Fatto! Ora dovresti avere accesso ai canali tramite le tue liste M3U personalizzate e auto-aggiornate.
