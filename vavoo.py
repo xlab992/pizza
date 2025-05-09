@@ -291,7 +291,7 @@ def save_m3u8(channels):
         os.remove(OUTPUT_FILE)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(f'#EXTM3U url-tvg="https://github.com/{USR}/{BRANCH}/raw/refs/heads/main/epg.xml"\n\n')
+        f.write(f'#EXTM3U url-tvg="https://github.com/{USR}/{REPO}/raw/refs/heads/main/epg.xml"\n\n')
         user_agent = extract_user_agent()
 
         for name, url, category in channels:
